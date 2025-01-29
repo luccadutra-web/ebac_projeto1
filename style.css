@@ -1,0 +1,163 @@
+/* Resetando o estilo padrão de margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffcc00; /* Cor dourada */
+}
+
+/* Seções */
+section {
+    padding: 40px;
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Cor dourada */
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+#sobre{
+    text-align: center;
+}
+
+/* Integrantes */
+.integrantes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.integrante {
+    text-align: center;
+    flex: 1;
+    max-width: 200px; /* Limita a largura máxima de cada bloco */
+}
+
+.integrante h3 {
+    font-size: 1.5em;
+    color: #ffcc00;
+}
+
+.integrante p {
+    font-size: 1.1em;
+}
+
+.integrante img {
+    width: 100%;        /* Faz com que a imagem ocupe 100% da largura do container */
+    height: 200px;      /* Define uma altura fixa para todas as imagens */
+    object-fit: cover;  /* Garante que as imagens se ajustem sem distorcer */
+    border-radius: 50%; /* Torna as imagens circulares */
+    margin-bottom: 15px; /* Espaçamento entre a imagem e o nome */
+}
+
+/* Álbuns */
+.albuns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.album {
+    text-align: center;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.album h3 {
+    font-size: 1.6em;
+    color: #ffcc00;
+}
+
+.album p {
+    font-size: 1.1em;
+    color: #ddd;
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+form label {
+    font-size: 1.1em;
+    color: #ffcc00;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #222;
+    color: #fff;
+}
+
+form button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e6b800;
+}
+
+#musica-favorita h2{
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1em;
+}
+

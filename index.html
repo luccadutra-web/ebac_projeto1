@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Led Zeppelin - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Led Zeppelin</h1>
+    </header>
+
+    <section id="sobre">
+        <img src="imagens/Led-Zeppelin-GettyImages-84848509.webp">
+        <h2>Sobre a Banda</h2>
+        <p>Led Zeppelin foi uma banda de rock britânica formada em 1968, considerada uma das maiores e mais influentes bandas de todos os tempos. Composta por Robert Plant, Jimmy Page, John Paul Jones e John Bonham, a banda é conhecida por sua mistura única de blues, rock e folk, além de seu estilo inovador.</p>
+    </section>
+
+    <section id="integrantes">
+        <h2>Integrantes</h2>
+        <div class="integrantes">
+            <div class="integrante">
+                <img src="imagens/Robert-Plant-London.jpg">
+                <h3>Robert Plant</h3>
+                <p>Vocal</p>
+            </div>
+            <div class="integrante">
+                <img src="imagens/535yu1mhulp41.webp">
+                <h3>Jimmy Page</h3>
+                <p>Guitarra</p>
+            </div>
+            <div class="integrante">
+                <img src="imagens/0v6qxdre8y7c1.webp">
+                <h3>John Paul Jones</h3>
+                <p>Baixo / Teclados</p>
+            </div>
+            <div class="integrante">
+                <img src="imagens/JOhn-Bonham-bonzo5.jpg">
+                <h3>John Bonham</h3>
+                <p>Bateria</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="albuns">
+        <h2>Álbuns Mais Famosos</h2>
+        <div class="albuns">
+            <div class="album">
+                <img src="imagens/LedZeppelinIV.jpg">
+                <h3>IV</h3>
+                <p>Lançado em 1971, é um dos álbuns mais famosos da banda, com clássicos como "Stairway to Heaven".</p>
+            </div>
+            <div class="album">
+                <img src="imagens/LedZeppelinPhysicalGraffitialbumcover.jpg">
+                <h3>Physical Graffiti</h3>
+                <p>Considerado um marco do rock, este álbum de 1975 é uma mistura de influências e inovações musicais.</p>
+            </div>
+            <div class="album">
+                <img src="imagens/Led_Zeppelin_II.jpg">
+                <h3>Led Zeppelin II</h3>
+                <p>Com faixas como "Whole Lotta Love", este álbum de 1969 solidificou o status da banda como pioneira do hard rock.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="musica-favorita">
+        <h2>Qual a sua música favorita do Led Zeppelin?</h2>
+        <form action="#" method="POST">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+            
+            <label for="musica">Escolha sua música favorita:</label>
+            <select id="musica" name="musica" required>
+                <option value="stairway-to-heaven">Stairway to Heaven</option>
+                <option value="whole-lotta-love">Whole Lotta Love</option>
+                <option value="immigrant-song">Immigrant Song</option>
+                <option value="black-dog">Black Dog</option>
+                <option value="kashmir">Kashmir</option>
+            </select>
+            <br><br>
+            
+            <label for="comentarios">Comentários adicionais:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+            <br><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Led Zeppelin Fan Page - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
